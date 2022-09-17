@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "hello-nbdev",
+    "section": "",
+    "text": "Nbdev, supercharged software development: https://nbdev.fast.ai\nThis is a walkthrough of the tutorial from here: https://nbdev.fast.ai/tutorials/tutorial.html\nMake sure you are using nbdev >= 2.3.4"
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "hello-nbdev",
+    "section": "Install",
+    "text": "Install\npip install hello_nbdev"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "hello-nbdev",
+    "section": "How to use",
+    "text": "How to use\nOur main functionality provides animal response/sounds for a given prompt/name\n\nsay_meow('bob')\n\n'Meow bob!'\n\n\n\nsay_meow('buddy')\n\n'Meow buddy!'"
+  },
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core_sounds",
+    "section": "",
+    "text": "source\n\nsay_meow\n\n say_meow (to)\n\nSay meow to someone\n\n#Test's for say_meow:\nassert(say_meow(\"Bob\") == \"Meow Bob!\")\ntest_eq(say_meow(\"Bob\"), \"Meow Bob!\")\n\n\ndisplay(SVG('<svg height=\"100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"50\" cy=\"50\" r=\"40\"/></svg>'))\n\n\n\n\n\nsource\n\n\nMeowSayer\n\n MeowSayer (to)\n\nSay Meow to ‘to’ using say_meow\nunfortunately the docs for the method in the class are not automatically shown… this is where the show_doc function comes into play, as seen below:\n\nsource\n\n\nMeowSayer.say\n\n MeowSayer.say ()\n\nDo the saying\n\no = MeowSayer(\"Nao\")\no.say()\n\n'Meow Nao!'"
+  }
+]
